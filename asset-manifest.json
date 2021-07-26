@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/top-crypto-currencies/static/css/main.489b5ff1.chunk.css",
+    "main.js": "/top-crypto-currencies/static/js/main.577a6ed5.chunk.js",
+    "main.js.map": "/top-crypto-currencies/static/js/main.577a6ed5.chunk.js.map",
+    "runtime-main.js": "/top-crypto-currencies/static/js/runtime-main.2c2632b0.js",
+    "runtime-main.js.map": "/top-crypto-currencies/static/js/runtime-main.2c2632b0.js.map",
+    "static/css/2.4be38407.chunk.css": "/top-crypto-currencies/static/css/2.4be38407.chunk.css",
+    "static/js/2.42f45460.chunk.js": "/top-crypto-currencies/static/js/2.42f45460.chunk.js",
+    "static/js/2.42f45460.chunk.js.map": "/top-crypto-currencies/static/js/2.42f45460.chunk.js.map",
+    "static/js/3.8a57d62e.chunk.js": "/top-crypto-currencies/static/js/3.8a57d62e.chunk.js",
+    "static/js/3.8a57d62e.chunk.js.map": "/top-crypto-currencies/static/js/3.8a57d62e.chunk.js.map",
+    "index.html": "/top-crypto-currencies/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/top-crypto-currencies/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.489b5ff1.chunk.css.map": "/top-crypto-currencies/static/css/main.489b5ff1.chunk.css.map",
+    "static/js/2.42f45460.chunk.js.LICENSE.txt": "/top-crypto-currencies/static/js/2.42f45460.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c2632b0.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.42f45460.chunk.js",
+    "static/css/main.489b5ff1.chunk.css",
+    "static/js/main.577a6ed5.chunk.js"
+  ]
+}

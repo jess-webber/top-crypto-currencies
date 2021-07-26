@@ -1,0 +1,59 @@
+{% extends 'authenticate/base.html' %}
+{% comment %} Pull through base template {% endcomment %}
+
+{% block content %}
+
+<style>
+{% load static %}
+body {
+background: url('{% static 'authenticate/black-sky.jpg' %}');
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1 {
+    font-size: 24px;
+}
+p {
+	text-align: center;
+}
+.mb-3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn {
+	margin-bottom: 50px;
+}
+</style>
+
+<body>
+<h1 class="text-center">Login</h1>
+<br>
+
+<div class="col-md-4 offset-md-4">
+	<form method="POST">
+		{% csrf_token %}
+        {% comment %} Show Login form {% endcomment %}
+
+	  <div class="mb-3">
+	    <input type="text" class="form-control"  placeholder="Enter username" name="username">
+	  </div>
+	  <div class="mb-3">
+	    <input type="password" class="form-control" placeholder="Enter password" name="password">
+	  </div>
+	     <div class="container">
+		  <div class="row">
+		    <div class="col">
+			<br>
+		      <button type="submit" class="btn btn-primary btn-lg">Login</button>
+			</div>
+			<p>New to NightNotes? Sign up <a href="{% url 'register' %}">here.</a></p>
+			</div>
+		</div>
+	</form>
+
+</div>
+
+{% endblock %}
